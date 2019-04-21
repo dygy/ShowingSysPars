@@ -30,7 +30,7 @@ namespace ShowingSysPars
             this.availPhys = availPhys;
             this.availVirtual = availVirtual;
             InitializeComponent();
-            label1.Text = "Randpme Access Memory " + ram / 1024 / 1024;
+            label1.Text = "Randome Access Memory " + ram / 1024 / 1024;
             label2.Text = "Файл подкачки " + availExtendedVirtual;
             label3.Text = "Свободных байт в файле подкачки " + availPageFile;
             label4.Text = "Свободная физическая память, байт " + availPhys;
@@ -42,14 +42,14 @@ namespace ShowingSysPars
             label10.Text = "Размер структуры " + dwLength ;
 
             /*
-            DWORD dwLength;     // Размер структуры
-            DWORD dwMemoryLoad; // Процент использования памяти
-            DWORD dwTotalPhys;  // Физическая память, байт
-            DWORD dwAvailPhys;  // Свободная физическая память, байт
-            DWORD dwTotalPageFile;  // Размер файла подкачки, байт
-            DWORD dwAvailPageFile;  // Свободных байт в файле подкачки
-            DWORD dwTotalVirtual;   // Виртуальная память, используемая процессом 
-            DWORD dwAvailVirtual;   // Свободная виртуальная память
+            DWORD dwLength;          Размер структуры
+            DWORD dwMemoryLoad;      Процент использования памяти
+            DWORD dwTotalPhys;       Физическая память, байт
+            DWORD dwAvailPhys;       Свободная физическая память, байт
+            DWORD dwTotalPageFile;   Размер файла подкачки, байт
+            DWORD dwAvailPageFile;   Свободных байт в файле подкачки
+            DWORD dwTotalVirtual;    Виртуальная память, используемая процессом 
+            DWORD dwAvailVirtual;    Свободная виртуальная память
             */
 
 
